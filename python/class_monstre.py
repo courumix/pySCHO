@@ -45,7 +45,12 @@ class monstre:
     
     
     def __repr__(self):
-        return self.getNom() + " est un " + str(self.getType()) + "\n PV :" + str(self.getPv()) + "/" + str(self.getPvMax())
+        return self.getNom() + " est un " + str(self.getType()) + "\n PV : " + str(self.getPv()) + "/" + str(self.getPvMax()) + "\n Force : " + str(self.getForce()) + "\n Résistance : " + str(self.getResi()) + "\n Agilité : " + str(self.getAgi()) + "\n Intélligence : " + str(self.getIntel()) +"\n sont cri est : " + self.getCri()
+            
+            
+           
+           
+        
   
         
         
