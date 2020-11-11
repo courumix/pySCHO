@@ -2,7 +2,7 @@ class personnage:
     def __init__(self,nom, pv=100):
         
         self._nom = nom
-        self._pv = pv_ = pv
+        self._pv = pv
         self._def = 15
         self._resi = 10
         self._agi = 8
@@ -10,7 +10,6 @@ class personnage:
         self._chance = 1
         self._exp = 0
         self._niv = 1
-
         self._force = 10
         self._vit = 25
         self._mana = 50
