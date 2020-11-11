@@ -1,15 +1,16 @@
+#la class monstre sert a créer les monstres de pySCHO
 class monstre:
     def __init__(self, nom, type_monstre='Humain', pv = 10, force = 10, resistance = 10,
                  agilite = 10, intelligence = 10, cri = 'grrrr'):
-        self._nom = str(nom)
-        self._type = str(type_monstre)
-        self._pv = int(pv)
-        self._pv_max = int(pv)
-        self._force = int(force)
-        self._resi = int(resistance)
-        self._agi = int(agilite)
-        self._intel = int(intelligence)
-        self._cri = str(cri)
+        self._nom = str(nom) #le nom du monstre (louis, casimir, etc...)
+        self._type = str(type_monstre) #le type du monstre (elf, gobelins, orc, dragon, etc...)
+        self._pv = int(pv) #le pv actuel du monstre
+        self._pv_max = int(pv) #les pv max du monstre (utiles pour le __repr__)
+        self._force = int(force) #les points de forces du monstre
+        self._resi = int(resistance) #les points de résistances du monstre
+        self._agi = int(agilite) #les points d'agilités du monstre
+        self._intel = int(intelligence) #les points d'intélligences du monstre
+        self._cri = str(cri) #le cri de guerre du monstre (grrrr, gniark, etc...)
         
     #accesseurs
     def getNom (self):
@@ -44,7 +45,7 @@ class monstre:
         
     
     
-    def __repr__(self):
+    def __repr__(self): #le __repr__ sert à afficher les caractéristiques du monstre
         return self.getNom() + " est un " + str(self.getType()) + "\n PV : " + str(self.getPv()) + "/" + str(self.getPvMax()) + "\n Force : " + str(self.getForce()) + "\n Résistance : " + str(self.getResi()) + "\n Agilité : " + str(self.getAgi()) + "\n Intélligence : " + str(self.getIntel()) +"\n sont cri est : " + self.getCri()
             
             
@@ -61,4 +62,4 @@ class monstre:
         
         
         
-victor = monstre("Victor", pv= 1500000)
+victor = monstre("Victor", pv= 1500000) #victor est cobaye de la class monstre
