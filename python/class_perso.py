@@ -10,7 +10,7 @@ class personnage:
         self._chance = 1
         self._exp = 0
         self._niv = 1
-        self._point_de_competence = 1
+
         self._force = 10
         self._vit = 25
         self._mana = 50
