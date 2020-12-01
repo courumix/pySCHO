@@ -1,6 +1,6 @@
 import random #importation de plusieurs fonction utile
 
-#la class monstre sert a créer les monstres de pySCHO
+# La class monstre sert a créer les monstres de pySCHO
 class monstre:
     def __init__(self, nom, type_monstre='Humain', pv = 10, force = 10, resistance = 10,
                  vitesse = 10, agilite = 10, intelligence = 10, cri = 'grrrr'):
