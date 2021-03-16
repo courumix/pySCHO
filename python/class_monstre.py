@@ -71,6 +71,6 @@ class monstre:
            
            
     
-  
+Zilug = monstre(nom="Zilug", type_monstre="orque", pv =220, force=22, resistance=14, vitesse=7, agilite=9, intelligence=8, chance=8, cri="waaarrr")  
 victor = monstre(nom="Victor", type_monstre="cobaye", pv=250, force=20, resistance=12, vitesse=5, agilite=7, intelligence=30, chance=10, cri="zzzzzzzzz")
 tobi = monstre(nom="Tobi", type_monstre="cobaye", pv=125, force=15, resistance=10, vitesse=16, agilite=17, intelligence=50, chance=15, cri="coucou")
