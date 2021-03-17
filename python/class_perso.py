@@ -45,6 +45,6 @@ def setPv (self,new_pv):
         self._pv = new_pv
             
 #méthodes
-def att(self, monstre, dmg_pv):
+def att (self, monstre, dmg_pv):
     new_pv = monstre.getPv() - dmg_pv
-    monstre.setPv(new_pv)   
+    monstre.setPv(new_pv)
